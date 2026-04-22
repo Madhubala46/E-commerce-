@@ -57,6 +57,7 @@ header form input{ background: none; border: none; width: 100%; height: 100%; }
 header form input:focus{ outline: none;}
 header form button{ background: none; border: none; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
 header :is(.wishlist,.cart,.menu,.search){ border: none; background: none; width: 32px;  margin-left: 12px; }
+header .flex a{color: #000;}
  
 
 .banner aside{border-right: .5px solid #0000004d; padding-top: 40px;}
