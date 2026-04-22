@@ -47,25 +47,28 @@
                                     <li><a href="signin.html">Sign Up</a></li>
                                 </ul>
                             </nav>
-                            <div class="flex align-center">
-                                <button class="search" type="button" title="search"><span class="fa fa-magnifying-glass"
-                                        aria-hidden="true"></span>
-                                </button>
-                                <form action="/search">
-                                    <input type="text" name="search" placeholder="What are you looking for?" required>
-                                    <button type="button" title="search"><span class="fa fa-magnifying-glass"
-                                            aria-hidden="true"></span></a>
+                           <div class="flex align-center">
+                                <div class="flex align-center">
+                                    <button class="search" type="button" title="search"><span
+                                            class="fa fa-magnifying-glass" aria-hidden="true"></span>
                                     </button>
-                                </form>
-                                <a href="Whishlist.html" class="wishlist" title="wishlist"><span
-                                        class="fa-regular fa-heart" aria-hidden="true"></span></a>
+                                    <form action="/search" id="searchForm">
+                                        <input type="text" name="search" placeholder="What are you looking for?"
+                                            id="searchInput" required>
+                                        <button type="submit" title="search"><span class="fa fa-magnifying-glass"
+                                                aria-hidden="true"></span>
+                                        </button>
+                                    </form>
+                                    <a href="Whishlist.html" class="wishlist" title="wishlist"><span
+                                            class="fa-regular fa-heart" aria-hidden="true"></span></a>
 
-                                <a href="cart.html" class="cart" title="wishlist"><span
-                                       class="fa-solid fa-cart-shopping" aria-hidden="true"></span></a>
-                                <button type="button" class="menu" title="menu"><span class="fa-solid fa-bars"
+                                    <a href="cart.html" class="cart" title="cart"><span
+                                            class="fa-solid fa-cart-shopping" aria-hidden="true"></span></a>
+
+                                             <button type="button" class="menu" title="menu"><span class="fa fa-bars"
                                         aria-hidden="true"></span>
                                 </button>
-
+                                </div>
                             </div>
                         </div>
                     </div>
